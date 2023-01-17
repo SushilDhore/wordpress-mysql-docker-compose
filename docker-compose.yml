@@ -2,6 +2,10 @@
 
 #docker pull mysql:latest
 #docker pull wordpress:latest
+#mkdir /data
+#docker-compose up / docker-compose up -d
+#docker-compose down
+
 
 
 version: '3.8'
@@ -40,3 +44,10 @@ services:
 networks: 
   Monk_Net:
     driver: bridge 
+    
+    
+    
+    
+    
+    
+    
